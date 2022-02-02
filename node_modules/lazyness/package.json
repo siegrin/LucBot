@@ -1,0 +1,68 @@
+{
+  "_args": [
+    [
+      "lazyness@1.2.0",
+      "/root/KurzBotz"
+    ]
+  ],
+  "_from": "lazyness@1.2.0",
+  "_id": "lazyness@1.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-KenL6EFbwxBwRxG93t0gcUyi0Nw0Ub31FJKN1laA4UscdkL1K1AxUd0gYZdcLU3v+x+wcFi4uQKS5hL+fk500g==",
+  "_location": "/lazyness",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "lazyness@1.2.0",
+    "name": "lazyness",
+    "escapedName": "lazyness",
+    "rawSpec": "1.2.0",
+    "saveSpec": null,
+    "fetchSpec": "1.2.0"
+  },
+  "_requiredBy": [
+    "/terminal-kit"
+  ],
+  "_resolved": "https://registry.npmjs.org/lazyness/-/lazyness-1.2.0.tgz",
+  "_spec": "1.2.0",
+  "_where": "/root/KurzBotz",
+  "author": {
+    "name": "Cédric Ronvel"
+  },
+  "bugs": {
+    "url": "https://github.com/cronvel/lazyness/issues"
+  },
+  "copyright": {
+    "title": "Lazyness",
+    "years": [
+      2018
+    ],
+    "owner": "Cédric Ronvel"
+  },
+  "dependencies": {},
+  "description": "Various lazy loaders.",
+  "devDependencies": {},
+  "directories": {
+    "test": "test"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "homepage": "https://github.com/cronvel/lazyness#readme",
+  "keywords": [
+    "lazy",
+    "loader"
+  ],
+  "license": "MIT",
+  "main": "lib/Lazyness.js",
+  "name": "lazyness",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cronvel/lazyness.git"
+  },
+  "scripts": {
+    "test": "tea-time -R dot"
+  },
+  "version": "1.2.0"
+}

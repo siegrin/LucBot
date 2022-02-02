@@ -1,0 +1,67 @@
+{
+  "_from": "paste.gg@^1.0.3",
+  "_id": "paste.gg@1.0.4",
+  "_inBundle": false,
+  "_integrity": "sha512-MML+EX2C56/bgp2V7FVUrCo1KReQTmaKBi+4tEZr6Bspj8KAd0tgk3sztdNsSJsbvaLcb3rqdX0afMMpOefMwQ==",
+  "_location": "/paste.gg",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "paste.gg@^1.0.3",
+    "name": "paste.gg",
+    "escapedName": "paste.gg",
+    "rawSpec": "^1.0.3",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.3"
+  },
+  "_requiredBy": [
+    "/zrapi"
+  ],
+  "_resolved": "https://registry.npmjs.org/paste.gg/-/paste.gg-1.0.4.tgz",
+  "_shasum": "e8fdd81e5388b03ad7674d2e7b6b27576bffb382",
+  "_spec": "paste.gg@^1.0.3",
+  "_where": "/storage/emulated/0/Alphabot/node_modules/zrapi",
+  "author": {
+    "name": "Seren_Modz 21"
+  },
+  "bugs": {
+    "url": "https://github.com/SerenModz21/paste.gg/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
+  "deprecated": false,
+  "description": "A wrapper for the paste.gg api",
+  "devDependencies": {
+    "@types/node": "^16.0.0",
+    "@types/node-fetch": "^2.5.10",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.3.5"
+  },
+  "engines": {
+    "node": ">=12.0.0",
+    "yarn": ">=1.0.0"
+  },
+  "homepage": "https://github.com/SerenModz21/paste.gg#readme",
+  "keywords": [
+    "paste.gg",
+    "api",
+    "wrapper"
+  ],
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "name": "paste.gg",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/SerenModz21/paste.gg.git"
+  },
+  "scripts": {
+    "build": "rimraf ./dist && tsc",
+    "prepublishOnly": "yarn build",
+    "test": "ts-node test/index.ts"
+  },
+  "typings": "./typings/index.d.ts",
+  "version": "1.0.4"
+}

@@ -1,0 +1,90 @@
+{
+  "_from": "awesome-phonenumber@^2.48.0",
+  "_id": "awesome-phonenumber@2.49.0",
+  "_inBundle": false,
+  "_integrity": "sha512-XI5AtK8aEIhp4tcSYbqAkyZ6kfudR0FN544MR3ewQ/kqnHOCU2ZwiYRMmTYApXGuTD1Ph33tvR9D/wmxxzeE0Q==",
+  "_location": "/awesome-phonenumber",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "awesome-phonenumber@^2.48.0",
+    "name": "awesome-phonenumber",
+    "escapedName": "awesome-phonenumber",
+    "rawSpec": "^2.48.0",
+    "saveSpec": null,
+    "fetchSpec": "^2.48.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/awesome-phonenumber/-/awesome-phonenumber-2.49.0.tgz",
+  "_shasum": "6924dffcfbda969a11b7986c3ee0ce39d745819d",
+  "_spec": "awesome-phonenumber@^2.48.0",
+  "_where": "/storage/emulated/0/Alphabot",
+  "author": {
+    "name": "Gustaf Räntilä",
+    "email": "g.rantila@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/grantila/awesome-phonenumber/issues"
+  },
+  "bundleDependencies": false,
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "deprecated": false,
+  "description": "Google's libphonenumber pre-compiled with the closure compiler",
+  "devDependencies": {
+    "@types/mkdirp": "^1.0.1",
+    "@types/mocha": "8.0.3",
+    "chai": "4.x",
+    "commitizen": "^4.2.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "google-closure-compiler": "20171023.0.1",
+    "gulp": "4.0.2",
+    "mkdirp": "1.0.4",
+    "mocha": "8.1.3",
+    "pre-commit": "1.x",
+    "replace": "1.2.0",
+    "rimraf-promise": "2.x",
+    "typescript": "^4.0.3"
+  },
+  "files": [
+    "lib",
+    "index.js",
+    "index.d.ts"
+  ],
+  "homepage": "https://github.com/grantila/awesome-phonenumber#readme",
+  "keywords": [
+    "libphonenumber",
+    "phonenumber",
+    "phone",
+    "number",
+    "closure",
+    "web",
+    "browser",
+    "browserify",
+    "awesome"
+  ],
+  "license": "MIT",
+  "main": "./index.js",
+  "name": "awesome-phonenumber",
+  "pre-commit": [
+    "test"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grantila/awesome-phonenumber.git"
+  },
+  "scripts": {
+    "build": "gulp",
+    "cz": "git-cz",
+    "semantic-release": "semantic-release",
+    "test": "scripts/test.sh"
+  },
+  "types": "./index.d.ts",
+  "version": "2.49.0"
+}

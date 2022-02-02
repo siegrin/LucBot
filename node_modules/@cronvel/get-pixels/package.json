@@ -1,0 +1,74 @@
+{
+  "_args": [
+    [
+      "@cronvel/get-pixels@3.4.0",
+      "/root/KurzBotz"
+    ]
+  ],
+  "_from": "@cronvel/get-pixels@3.4.0",
+  "_id": "@cronvel/get-pixels@3.4.0",
+  "_inBundle": false,
+  "_integrity": "sha512-do5jDoX9oCR/dGHE4POVQ3PYDCmQ2Fow4CA72UL4WoE8zUImA/0lChczjfl+ucNjE4sXFWUnzoO6j4WzrUvLnw==",
+  "_location": "/@cronvel/get-pixels",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@cronvel/get-pixels@3.4.0",
+    "name": "@cronvel/get-pixels",
+    "escapedName": "@cronvel%2fget-pixels",
+    "scope": "@cronvel",
+    "rawSpec": "3.4.0",
+    "saveSpec": null,
+    "fetchSpec": "3.4.0"
+  },
+  "_requiredBy": [
+    "/terminal-kit"
+  ],
+  "_resolved": "https://registry.npmjs.org/@cronvel/get-pixels/-/get-pixels-3.4.0.tgz",
+  "_spec": "3.4.0",
+  "_where": "/root/KurzBotz",
+  "author": {
+    "name": "Mikola Lysenko"
+  },
+  "bugs": {
+    "url": "https://github.com/cronvel/get-pixels/issues"
+  },
+  "dependencies": {
+    "jpeg-js": "^0.4.1",
+    "ndarray": "^1.0.19",
+    "ndarray-pack": "^1.1.1",
+    "node-bitmap": "0.0.1",
+    "omggif": "^1.0.10",
+    "pngjs": "^5.0.0"
+  },
+  "description": "Pruned version of the 'get-pixels' package by Mikola Lysenko (only node.js and local fs files)",
+  "devDependencies": {},
+  "homepage": "https://github.com/cronvel/get-pixels#readme",
+  "keywords": [
+    "ndarray",
+    "pixel",
+    "get",
+    "read",
+    "pixel",
+    "image",
+    "png",
+    "jpeg",
+    "jpg",
+    "jpe",
+    "gif",
+    "decode",
+    "buffer",
+    "data",
+    "parse",
+    "node"
+  ],
+  "license": "MIT",
+  "main": "node-pixels.js",
+  "name": "@cronvel/get-pixels",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cronvel/get-pixels.git"
+  },
+  "version": "3.4.0"
+}

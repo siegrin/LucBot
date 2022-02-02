@@ -1,0 +1,87 @@
+{
+  "_args": [
+    [
+      "string-kit@0.12.8",
+      "/root/KurzBotz"
+    ]
+  ],
+  "_from": "string-kit@0.12.8",
+  "_id": "string-kit@0.12.8",
+  "_inBundle": false,
+  "_integrity": "sha512-9UYXBbe/reAZI6cKiaNC7zEzdmA91Ih5/lVmbPGoMssSWZfqVcQvqAMlL0dTdMn+a7XCXBe8zV4BVopXlf+Aaw==",
+  "_location": "/string-kit",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "string-kit@0.12.8",
+    "name": "string-kit",
+    "escapedName": "string-kit",
+    "rawSpec": "0.12.8",
+    "saveSpec": null,
+    "fetchSpec": "0.12.8"
+  },
+  "_requiredBy": [
+    "/terminal-kit"
+  ],
+  "_resolved": "https://registry.npmjs.org/string-kit/-/string-kit-0.12.8.tgz",
+  "_spec": "0.12.8",
+  "_where": "/root/KurzBotz",
+  "author": {
+    "name": "Cédric Ronvel"
+  },
+  "bugs": {
+    "url": "https://github.com/cronvel/string-kit/issues"
+  },
+  "config": {
+    "tea-time": {
+      "coverDir": [
+        "lib"
+      ]
+    }
+  },
+  "copyright": {
+    "title": "String Kit",
+    "years": [
+      2014,
+      2021
+    ],
+    "owner": "Cédric Ronvel"
+  },
+  "dependencies": {},
+  "description": "A string manipulation toolbox, featuring a string formatter (inspired by sprintf), a variable inspector (output featuring ANSI colors and HTML) and various escape functions (shell argument, regexp, html, etc).",
+  "directories": {
+    "test": "test",
+    "bench": "bench"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "homepage": "https://github.com/cronvel/string-kit#readme",
+  "keywords": [
+    "string",
+    "manipulation",
+    "format",
+    "sprintf",
+    "printf",
+    "inspect",
+    "color",
+    "debug",
+    "dump",
+    "escape",
+    "shell",
+    "regexp",
+    "html"
+  ],
+  "license": "MIT",
+  "main": "lib/string.js",
+  "name": "string-kit",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cronvel/string-kit.git"
+  },
+  "scripts": {
+    "test": "tea-time -R dot"
+  },
+  "version": "0.12.8"
+}

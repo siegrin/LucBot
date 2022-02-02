@@ -1,0 +1,89 @@
+{
+  "_args": [
+    [
+      "nextgen-events@1.5.2",
+      "/root/KurzBotz"
+    ]
+  ],
+  "_from": "nextgen-events@1.5.2",
+  "_id": "nextgen-events@1.5.2",
+  "_inBundle": false,
+  "_integrity": "sha512-0ZEIRQywH5Oxt2IYYufRltQg/KjXhKM7f7MHve+ZIRaKnIR1PPYEXAl2WBmej5Sf0Qh2GgE/21sMRZVuOyxLzw==",
+  "_location": "/nextgen-events",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "nextgen-events@1.5.2",
+    "name": "nextgen-events",
+    "escapedName": "nextgen-events",
+    "rawSpec": "1.5.2",
+    "saveSpec": null,
+    "fetchSpec": "1.5.2"
+  },
+  "_requiredBy": [
+    "/terminal-kit"
+  ],
+  "_resolved": "https://registry.npmjs.org/nextgen-events/-/nextgen-events-1.5.2.tgz",
+  "_spec": "1.5.2",
+  "_where": "/root/KurzBotz",
+  "author": {
+    "name": "Cédric Ronvel"
+  },
+  "bugs": {
+    "url": "https://github.com/cronvel/nextgen-events/issues"
+  },
+  "config": {
+    "tea-time": {
+      "coverDir": [
+        "lib"
+      ]
+    }
+  },
+  "copyright": {
+    "title": "Next-Gen Events",
+    "years": [
+      2015,
+      2021
+    ],
+    "owner": "Cédric Ronvel"
+  },
+  "dependencies": {},
+  "description": "The next generation of events handling for javascript! New: abstract away the network!",
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "uglify-js-es6": "^2.8.9",
+    "ws": "^7.4.6"
+  },
+  "directories": {
+    "test": "test",
+    "bench": "bench"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "homepage": "https://github.com/cronvel/nextgen-events#readme",
+  "keywords": [
+    "events",
+    "async",
+    "emit",
+    "listener",
+    "context",
+    "series",
+    "serialize",
+    "namespace",
+    "proxy",
+    "network"
+  ],
+  "license": "MIT",
+  "main": "lib/NextGenEvents.js",
+  "name": "nextgen-events",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cronvel/nextgen-events.git"
+  },
+  "scripts": {
+    "test": "tea-time -R dot"
+  },
+  "version": "1.5.2"
+}

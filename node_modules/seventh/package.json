@@ -1,0 +1,89 @@
+{
+  "_args": [
+    [
+      "seventh@0.7.40",
+      "/root/KurzBotz"
+    ]
+  ],
+  "_from": "seventh@0.7.40",
+  "_id": "seventh@0.7.40",
+  "_inBundle": false,
+  "_integrity": "sha512-7sxUydQx4iEh17uJUFjZDAwbffJirldZaNIJvVB/hk9mPEL3J4GpLGSL+mHFH2ydkye46DAsLGqzFJ+/Qj5foQ==",
+  "_location": "/seventh",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "seventh@0.7.40",
+    "name": "seventh",
+    "escapedName": "seventh",
+    "rawSpec": "0.7.40",
+    "saveSpec": null,
+    "fetchSpec": "0.7.40"
+  },
+  "_requiredBy": [
+    "/terminal-kit"
+  ],
+  "_resolved": "https://registry.npmjs.org/seventh/-/seventh-0.7.40.tgz",
+  "_spec": "0.7.40",
+  "_where": "/root/KurzBotz",
+  "author": {
+    "name": "Cédric Ronvel"
+  },
+  "bugs": {
+    "url": "https://github.com/cronvel/seventh/issues"
+  },
+  "config": {
+    "tea-time": {
+      "coverDir": [
+        "lib"
+      ]
+    }
+  },
+  "copyright": {
+    "title": "Seventh",
+    "years": [
+      2017,
+      2020
+    ],
+    "owner": "Cédric Ronvel"
+  },
+  "dependencies": {
+    "setimmediate": "^1.0.5"
+  },
+  "description": "A lean Promises and Async lib for ES6/ES7",
+  "directories": {
+    "test": "test"
+  },
+  "engines": {
+    "node": ">=7.6.0"
+  },
+  "homepage": "https://github.com/cronvel/seventh#readme",
+  "keywords": [
+    "async",
+    "await",
+    "promise",
+    "foreach",
+    "map",
+    "reduce",
+    "filter",
+    "once",
+    "timeout",
+    "retry",
+    "debounce",
+    "serialize",
+    "es6",
+    "es7"
+  ],
+  "license": "MIT",
+  "main": "lib/seventh.js",
+  "name": "seventh",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cronvel/seventh.git"
+  },
+  "scripts": {
+    "test": "tea-time -R dot -O"
+  },
+  "version": "0.7.40"
+}

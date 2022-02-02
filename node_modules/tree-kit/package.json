@@ -1,0 +1,83 @@
+{
+  "_args": [
+    [
+      "tree-kit@0.7.4",
+      "/root/KurzBotz"
+    ]
+  ],
+  "_from": "tree-kit@0.7.4",
+  "_id": "tree-kit@0.7.4",
+  "_inBundle": false,
+  "_integrity": "sha512-Of3tPmVs3b6BhzyUJ7t0olisf47kYr9qAm0XaUpURMjdBn6TwiVaaMuTFoKkkvPGojd9trKAHlrGGcGKcdR1DA==",
+  "_location": "/tree-kit",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "tree-kit@0.7.4",
+    "name": "tree-kit",
+    "escapedName": "tree-kit",
+    "rawSpec": "0.7.4",
+    "saveSpec": null,
+    "fetchSpec": "0.7.4"
+  },
+  "_requiredBy": [
+    "/terminal-kit"
+  ],
+  "_resolved": "https://registry.npmjs.org/tree-kit/-/tree-kit-0.7.4.tgz",
+  "_spec": "0.7.4",
+  "_where": "/root/KurzBotz",
+  "author": {
+    "name": "Cédric Ronvel"
+  },
+  "bugs": {
+    "url": "https://github.com/cronvel/tree-kit/issues"
+  },
+  "config": {
+    "tea-time": {
+      "coverDir": [
+        "lib"
+      ]
+    }
+  },
+  "copyright": {
+    "title": "Tree Kit",
+    "years": [
+      2014,
+      2021
+    ],
+    "owner": "Cédric Ronvel"
+  },
+  "dependencies": {},
+  "description": "Tree utilities which provides a full-featured extend and object-cloning facility, and various tools to deal with nested object structures.",
+  "devDependencies": {
+    "browserify": "^16.2.3",
+    "uglify-es": "^3.3.9"
+  },
+  "directories": {
+    "test": "test",
+    "bench": "bench"
+  },
+  "homepage": "https://github.com/cronvel/tree-kit#readme",
+  "keywords": [
+    "tree",
+    "extend",
+    "clone",
+    "prototype",
+    "inherit",
+    "deep",
+    "diff",
+    "mask"
+  ],
+  "license": "MIT",
+  "main": "lib/tree.js",
+  "name": "tree-kit",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cronvel/tree-kit.git"
+  },
+  "scripts": {
+    "test": "tea-time -R dot"
+  },
+  "version": "0.7.4"
+}

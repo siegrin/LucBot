@@ -1,0 +1,72 @@
+{
+  "_from": "line-by-line@^0.1.6",
+  "_id": "line-by-line@0.1.6",
+  "_inBundle": false,
+  "_integrity": "sha512-MmwVPfOyp0lWnEZ3fBA8Ah4pMFvxO6WgWovqZNu7Y4J0TNnGcsV4S1LzECHbdgqk1hoHc2mFP1Axc37YUqwafg==",
+  "_location": "/line-by-line",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "line-by-line@^0.1.6",
+    "name": "line-by-line",
+    "escapedName": "line-by-line",
+    "rawSpec": "^0.1.6",
+    "saveSpec": null,
+    "fetchSpec": "^0.1.6"
+  },
+  "_requiredBy": [
+    "/lolcatjs"
+  ],
+  "_resolved": "https://registry.npmjs.org/line-by-line/-/line-by-line-0.1.6.tgz",
+  "_shasum": "6236edd1db2d1695addf11f0268e74a181561c30",
+  "_spec": "line-by-line@^0.1.6",
+  "_where": "/storage/emulated/0/DCIM/c/node_modules/lolcatjs",
+  "author": {
+    "name": "Markus Ostertag",
+    "email": "mo@mo-its.de"
+  },
+  "bugs": {
+    "url": "https://github.com/Osterjour/line-by-line/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Markus von der Wehd",
+      "email": "mvdw@mwin.de"
+    }
+  ],
+  "dependencies": {},
+  "deprecated": false,
+  "description": "A NodeJS module that helps you reading large text files, line by line, without buffering the files into memory.",
+  "devDependencies": {
+    "jshint": "2.5.x"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "homepage": "https://github.com/Osterjour/line-by-line",
+  "keywords": [
+    "line",
+    "file",
+    "reader",
+    "fs"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.github.com/Osterjour/line-by-line/master/LICENSE.txt"
+    }
+  ],
+  "main": "line-by-line.js",
+  "name": "line-by-line",
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Osterjour/line-by-line.git"
+  },
+  "scripts": {
+    "test": "jshint ."
+  },
+  "version": "0.1.6"
+}

@@ -1,0 +1,64 @@
+{
+  "_args": [
+    [
+      "file-match@1.0.2",
+      "/root/KurzBotz"
+    ]
+  ],
+  "_from": "file-match@1.0.2",
+  "_id": "file-match@1.0.2",
+  "_inBundle": false,
+  "_integrity": "sha1-ycrSZdLIrfOoFHWw30dYWQafrvc=",
+  "_location": "/file-match",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "file-match@1.0.2",
+    "name": "file-match",
+    "escapedName": "file-match",
+    "rawSpec": "1.0.2",
+    "saveSpec": null,
+    "fetchSpec": "1.0.2"
+  },
+  "_requiredBy": [
+    "/file-system"
+  ],
+  "_resolved": "https://registry.npmjs.org/file-match/-/file-match-1.0.2.tgz",
+  "_spec": "1.0.2",
+  "_where": "/root/KurzBotz",
+  "author": {
+    "name": "douzi",
+    "email": "liaowei08@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/douzi8/file-match/issues"
+  },
+  "dependencies": {
+    "utils-extend": "^1.0.6"
+  },
+  "description": "Match filepath is validated, or exclude filepath that don't need.",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0",
+    "mocha": "^2.0.1"
+  },
+  "homepage": "https://github.com/douzi8/file-match#readme",
+  "keywords": [
+    "filepath",
+    "match",
+    "minimatch",
+    "grunt filematch"
+  ],
+  "license": "ISC",
+  "main": "file-match.js",
+  "name": "file-match",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/douzi8/file-match.git"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "version": "1.0.2"
+}

@@ -1,0 +1,53 @@
+{
+  "_from": "vapor-text@^1.0.5",
+  "_id": "vapor-text@1.0.5",
+  "_inBundle": false,
+  "_integrity": "sha512-Pt5jIVO8JIxr71d0sFvBRgPRtn/V5BE/rx9BdTYzKC+nBUe9JzWcCNR4x/KZA2h3eEu9ui3tgRFlg+xdlwW19w==",
+  "_location": "/vapor-text",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "vapor-text@^1.0.5",
+    "name": "vapor-text",
+    "escapedName": "vapor-text",
+    "rawSpec": "^1.0.5",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.5"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/vapor-text/-/vapor-text-1.0.5.tgz",
+  "_shasum": "a0f07170255f8a4ca33c8229e57d4f950f44a8c6",
+  "_spec": "vapor-text@^1.0.5",
+  "_where": "/storage/emulated/0/DCIM/c",
+  "author": {
+    "name": "thamso"
+  },
+  "bugs": {
+    "url": "https://github.com/thanos783/Vapor-text/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A node module and CLI for vaporising your text.",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "homepage": "https://github.com/thanos783/Vapor-text/blob/master/README.md",
+  "keywords": [
+    "Vapor"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "vapor-text",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thanos783/Vapor-text.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.5"
+}

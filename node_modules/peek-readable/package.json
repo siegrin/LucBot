@@ -1,0 +1,106 @@
+{
+  "_from": "peek-readable@^3.1.3",
+  "_id": "peek-readable@3.1.3",
+  "_inBundle": false,
+  "_integrity": "sha512-mpAcysyRJxmICBcBa5IXH7SZPvWkcghm6Fk8RekoS3v+BpbSzlZzuWbMx+GXrlUwESi9qHar4nVEZNMKylIHvg==",
+  "_location": "/peek-readable",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "peek-readable@^3.1.3",
+    "name": "peek-readable",
+    "escapedName": "peek-readable",
+    "rawSpec": "^3.1.3",
+    "saveSpec": null,
+    "fetchSpec": "^3.1.3"
+  },
+  "_requiredBy": [
+    "/strtok3"
+  ],
+  "_resolved": "https://registry.npmjs.org/peek-readable/-/peek-readable-3.1.3.tgz",
+  "_shasum": "932480d46cf6aa553c46c68566c4fb69a82cd2b1",
+  "_spec": "peek-readable@^3.1.3",
+  "_where": "/storage/emulated/0/Alphabot/node_modules/strtok3",
+  "author": {
+    "name": "Borewit",
+    "url": "https://github.com/Borewit"
+  },
+  "bugs": {
+    "url": "https://github.com/Borewit/peek-readable/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Read and peek from a readable stream",
+  "devDependencies": {
+    "@types/mocha": "^8.2.0",
+    "@types/node": "^14.14.20",
+    "@typescript-eslint/eslint-plugin": "^2.34.0",
+    "@typescript-eslint/parser": "^2.34.0",
+    "add": "^2.0.6",
+    "chai": "^4.2.0",
+    "coveralls": "^3.1.0",
+    "del-cli": "^3.0.1",
+    "eslint": "^6.8.0",
+    "mocha": "^7.2.0",
+    "nyc": "^15.1.0",
+    "remark-cli": "^9.0.0",
+    "remark-preset-lint-recommended": "^5.0.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "lib/**/*.js",
+    "lib/**/*.d.ts"
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/Borewit"
+  },
+  "homepage": "https://github.com/Borewit/peek-readable#readme",
+  "keywords": [
+    "readable",
+    "buffer",
+    "stream",
+    "read"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "name": "peek-readable",
+  "nyc": {
+    "check-coverage": true,
+    "extension": [
+      ".ts"
+    ],
+    "sourceMap": true,
+    "instrument": true,
+    "reporter": [
+      "lcov",
+      "text"
+    ],
+    "report-dir": "coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Borewit/peek-readable.git"
+  },
+  "scripts": {
+    "build": "npm run clean && npm run compile",
+    "clean": "del-cli lib/**/*.js lib/**/*.js.map lib/**/*.d.ts test/**/*.js test/**/*.js.map coverage .nyc_output",
+    "compile": "npm run compile-src && yarn run compile-test",
+    "compile-src": "tsc -p lib",
+    "compile-test": "tsc -p test",
+    "eslint": "eslint lib test --ext .ts --ignore-pattern *.d.ts",
+    "lint": "npm run lint-md && npm run eslint",
+    "lint-md": "remark -u preset-lint-recommended .",
+    "send-coveralls": "nyc report --reporter=text-lcov | coveralls",
+    "start": "npm run compile && npm run lint && npm run cover-test",
+    "test": "mocha --require ts-node/register --require source-map-support/register --full-trace test/*.ts",
+    "test-coverage": "nyc npm run test"
+  },
+  "types": "lib/index.d.ts",
+  "version": "3.1.3"
+}

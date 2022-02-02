@@ -1,0 +1,73 @@
+{
+  "_from": "lolcatjs@^2.4.0",
+  "_id": "lolcatjs@2.4.1",
+  "_inBundle": false,
+  "_integrity": "sha512-i3iTDa9qtXPvDXgL5LeiC0B+8dhhadXEy7US1JJ8EYLPfADwbKbicBLOPVnjLwDAsOHRnoL9bkYqCWw8s4kKBQ==",
+  "_location": "/lolcatjs",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "lolcatjs@^2.4.0",
+    "name": "lolcatjs",
+    "escapedName": "lolcatjs",
+    "rawSpec": "^2.4.0",
+    "saveSpec": null,
+    "fetchSpec": "^2.4.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/lolcatjs/-/lolcatjs-2.4.1.tgz",
+  "_shasum": "2bd064f0b220c97de17315b7bb242ef5d0e50864",
+  "_spec": "lolcatjs@^2.4.0",
+  "_where": "/storage/emulated/0/DCIM/c",
+  "author": {
+    "name": "Robert Marsal"
+  },
+  "bin": {
+    "lolcatjs": "cli.js"
+  },
+  "bugs": {
+    "url": "https://github.com/robertmarsal/lolcatjs/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "ansi": "^0.3.1",
+    "chalk": "^3.0.0",
+    "line-by-line": "^0.1.6",
+    "minimist": "^1.2.0",
+    "sleep": "^6.1.0",
+    "supports-color": "^7.1.0"
+  },
+  "deprecated": false,
+  "description": "The rainbow I tastes it",
+  "engines": {
+    "node": ">=6.9"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "homepage": "https://github.com/robertboloc/lolcatjs#readme",
+  "keywords": [
+    "lolcat",
+    "lol",
+    "cat",
+    "rainbow"
+  ],
+  "license": "WTFPL",
+  "main": "index.js",
+  "name": "lolcatjs",
+  "optionalDependencies": {
+    "sleep": "^6.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robertboloc/lolcatjs.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "2.4.1"
+}
