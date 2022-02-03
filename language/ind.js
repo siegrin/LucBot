@@ -31,7 +31,7 @@ ${bi}${prefix}zliputan6
 ${bi}${prefix}zfoxnews 
 ${bu}
 
-*╭─❲ MENU IMAGE ❳*
+*╭─❲ MENU IMAGE 2 ❳*
 ${bi}${prefix}zqrencode
 ${bi}${prefix}zbarcode 
 ${bi}${prefix}zhartatahta 
@@ -93,13 +93,13 @@ ${bu}
 *╭─❲ MINIGAME ❳*
 ${bi}${prefix}ztebakgambar
 ${bi}${prefix}zsiapaaku
- ${bi}${prefix}zcaklontong
+${bi}${prefix}zcaklontong
 ${bu}
 
 *╭─❲ PRIMBON ❳*
 ${bi}${prefix}zartimimpi
 ${bi}${prefix}zartinama
- ${bi}${prefix}zprimbonjodoh
+${bi}${prefix}zprimbonjodoh
 ${bu}
 
 *╭─❲ OTHER ❳*
