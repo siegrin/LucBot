@@ -63,8 +63,6 @@ const googleImage = require('g-i-s')
 const { ind } = require('./language')
 const setting = JSON.parse(fs.readFileSync('./settings.json'))
 const settingbot = JSON.parse(fs.readFileSync('./src/settingsbot.json'))
-
-const {buffer2Stream, ytsr, baseURI, stream2Buffer, noop } = require('./lib/ytdl')
 const { lirikLagu } = require('./lib/bot/lirik.js')
 const { wikiSearch } = require('./lib/bot/wiki.js')
 const { herolist } = require('./lib/bot/herolist.js')
@@ -74,6 +72,7 @@ const { pinterest } = require('./lib/bot/pinterest')
 const { getBuffer, h2k, generateMessageID, getGroupAdmins, getRandom, banner, start, info, success, close } = require('./lib/bot/functions')
 const { color, bgcolor } = require('./lib/bot/color')
 const { fetchJson, getBase64, kyun, createExif } = require('./lib/bot/fetcher')
+const ph = require('./lib/photooxy.js')
 const {yta ,ytv, igdl, upload } = require('./lib/bot/ytdl')
 const { webp2mp4File} = require('./lib/bot/webp2mp4')
 const { msgFilter } = require('./lib/bot/antispam')
@@ -6145,22 +6144,9 @@ if (!isRegistered) return sendButtonNotRegis(from)
 if (isBanned) return replysticker(banstc)
 						if (!q) return reply(`Kirim perintah *${prefix+command} [linkYt]*`)
 					 if (!isUrl(args[0]) && !args[0].includes('youtu')) return replysticker(errorstc)
-						try {
-							replysticker(waitstc)
-							ytv(args[0])
-							.then((res) => {
-								const { dl_link, thumb, title, filesizeF, filesize } = res
-								axios.get(`https://tinyurl.com/api-create.php?url=${dl_link}`)
-								.then((a) => {
-								if (Number(filesize) >= 40000) return sendMediaURL(from, thumb, `❏ *YTmp4*\n\n❏ *Title* : ${title}\n❏ *Ext* : MP3\n*Filesize* : ${filesizeF}\n*Link* : ${a.data}\n\n_Maaf durasi melebihi batas maksimal, Silahkan klik link diatas_`)
-								sendFileFromUrl(dl_link, document, {mimetype: 'video/mp4', filename: `${title}.mp4`, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title:title,body:" YTMP4",mediaType:"2",thumbnail:getBuffer(thumb),sourceUrl:`${body.slice(7)}`}}}).catch(() =>replysticker(errorstc))
-							})
-							})
-						} catch (err) {
 							replysticker(errorstc)
-						}
 						await confirmLIMIT(sender, [angka]) 
-						break						   						   
+						break						
 			case 'ytsearch':
 if (!isRegistered) return sendButtonNotRegis(from)
 if (isBanned) return replysticker(banstc)
@@ -8182,7 +8168,7 @@ if (isGroup && budy != undefined) {
             if (!e.includes("Cannot set property 'mtype' of undefined")) {
             if (!e.includes("jid is not defined")) {
      console.log(color('|ERR|', 'red'), color(e, 'cyan'))
-     client.sendMessage(ow, `──「 *ALERT-ERROR* 」──\n\n\`\`\`${e}\`\`\`\n\n────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `Developer ${fake}`,body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./src/siegrin.jpeg'),sourceUrl: `${mybio}`}}})
+     client.sendMessage(ow, `──「 *ALERT-ERROR* 」──\n\n\`\`\`${e}\`\`\`\n\n────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `Developer ${fake}`,body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./logonya.jpeg'),sourceUrl:"https://wa.me/p/6349482305092740/6281220670449"}}})
 	}
     }
     }
