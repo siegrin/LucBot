@@ -77,10 +77,10 @@
  "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/siegri"
+    "url": "git+https://github.com/siegrin"
   },
   "bugs": {
-    "url": "https://github.com/siegri"
+    "url": "https://github.com/siegrin"
   },
-  "homepage": "https://github.com/siegri"
+  "homepage": "https://github.com/siegrin"
 }
