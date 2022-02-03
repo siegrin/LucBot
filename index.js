@@ -8182,7 +8182,7 @@ if (isGroup && budy != undefined) {
             if (!e.includes("Cannot set property 'mtype' of undefined")) {
             if (!e.includes("jid is not defined")) {
      console.log(color('|ERR|', 'red'), color(e, 'cyan'))
-     client.sendMessage(ow, `──「 *ERROR* 」──\n\n\`\`\`${e}\`\`\`\n\n─────────────`, MessageType.text, {quoted: {key: {fromMe: false,"participant":"0@s.whatsapp.net",   "remoteJid": "6289530298948-1604595598@g.us"  }, "message": {orderMessage: {itemCount: `${_registered.length}`,status: 200, thumbnail: buffer, surface: 200, message: `${command}`, orderTitle: 'L', sellerJid: '0@s.whatsapp.net'}}}, contextInfo :{sendEphemeral: true, mentionedJid: [player]}})
+     client.sendMessage(ow, `──「 *ALERT-ERROR* 」──\n\n\`\`\`${e}\`\`\`\n\n────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `Developer ${fake}`,body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./src/siegrin.jpeg'),sourceUrl: `${mybio}`}}})
 	}
     }
     }
