@@ -442,12 +442,6 @@ const { text, extendedText, contact, location, liveLocation, image, video, stick
 const time = moment.tz('Asia/Jakarta').format('DD/MM HH:mm:ss')
 const type = Object.keys(mek.message)[0]
 const cmd = (type === 'conversation' && mek.message.conversation) ? mek.message.conversation : (type == 'imageMessage') && mek.message.imageMessage.caption ? mek.message.imageMessage.caption : (type == 'videoMessage') && mek.message.videoMessage.caption ? mek.message.videoMessage.caption : (type == 'extendedTextMessage') && mek.message.extendedTextMessage.text ? mek.message.extendedTextMessage.text : (type == 'stickerMessage') && (getCmd(mek.message.stickerMessage.fileSha256.toString('hex')) !== null && getCmd(mek.message.stickerMessage.fileSha256.toString('base64')) !== undefined) ? getCmd(mek.message.stickerMessage.fileSha256.toString('base64')) : ''.slice(1).trim().split(/ +/).shift().toLowerCase()
-client.on("CB:action,,battery", json => {
-	    const battery = json[2][0][1].value
-	    const persenbat = parseInt(battery)
-	    baterai.battery = `${persenbat}%`
-	    baterai.isCharge = json[2][0][1].live
-	    })
 if (multi){
 // var prefix = ''
 var prefix = /^[°•π÷×¶∆£¢€¥®™=|~!#$%^&.?/\\©^z+@,;]/.test(cmd) ? cmd.match(/^[°•π÷×¶∆£¢€¥®™=|~!#$%^&.?/\\©^z+,;]/gi) : '!'  	
