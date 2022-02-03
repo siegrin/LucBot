@@ -6687,7 +6687,7 @@ res = await TiktokDownloader(`${q}`).catch(e => {
 replysticker(errorstc)
 })
 console.log(res)
-sendMediaURL(from, `${res.result.audio}`)
+sendMediaURL(from, `${res.result.audio}`, audio, {mimetype: 'audio/mp4'})
 await confirmLIMIT(sender, [angka])	
 break
 case 'pinterest':
@@ -8167,7 +8167,7 @@ if (isGroup && budy != undefined) {
             if (!e.includes("Cannot set property 'mtype' of undefined")) {
             if (!e.includes("jid is not defined")) {
      console.log(color('|ERR|', 'red'), color(e, 'cyan'))
-     client.sendMessage(ow, `──「 *ALERT-ERROR* 」──\n\n\`\`\`${e}\`\`\`\n\n────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `Developer ${fake}`,body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./src/siegrin.jpeg'),sourceUrl:`${mybio}`}}})
+     client.sendMessage(ow, `──「 *ALERT-ERROR* 」──\n\n\`\`\`${e}\`\`\`\n\n────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `Developer ${fake}`,body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./siegrin.jpeg'),sourceUrl: `${mybio}`}}})
 	}
     }
     }
