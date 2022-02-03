@@ -5898,10 +5898,11 @@ break
 case 'toimg':
 if (isBanned) return replysticker(banstc)
 if (!isRegistered) return sendButtonNotRegis(from)
+if (!isPremium) return replysticker(premiumstc)
 if (!isQuotedSticker) return reply('reply/tag sticker!')
 encmedia = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
 const mediaaa = await client.downloadAndSaveMediaMessage(encmedia)
-ran = getRandom('.png')
+ran = getRandom('.jpeg')
 exec(`ffmpeg -i ${mediaaa} ${ran}`, (err) => {
 fs.unlinkSync(mediaaa)
 replysticker(waitstc)
