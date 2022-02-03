@@ -6687,7 +6687,7 @@ res = await TiktokDownloader(`${q}`).catch(e => {
 replysticker(errorstc)
 })
 console.log(res)
-sendMediaURL(from, `${res.result.audio}`, audio, {mimetype: 'audio/mp4'})
+sendMediaURL(from, `${res.result.watermark}`, audio, {mimetype: 'audio/mp4'})
 await confirmLIMIT(sender, [angka])	
 break
 case 'pinterest':
