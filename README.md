@@ -74,31 +74,6 @@
 | [![Saya](https://github.com/lendradx.png?size=50)](https://github.com/lendradx) | [![Hm](https://github.com/itsmedell.png?size=50)](https://github.com/itsmedell) |
 |------|------|
 | lendradx | itsmedell | 
- ---------
-
-
-## Github Stats 🚀
-
-<p align="center"><a href="https://github.com/siegrin"><img src="https://github-readme-stats.vercel.app/api?username=siegrin&show_icons=true&theme=radical"></a></p>
-<p align="center"><a href="https://github.com/siegrin"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=siegrin&theme=radical&layout=compact"></a></p> 
-<p align="center">
-  </a>
-  <img src="https://komarev.com/ghpvc/?username=siegrin&label=VIEWS&style=flat-square&color=blue" />
-</p>
-
-   <h2 align="left">🏆 Achievements</h2>
-<p align="center">
-    <a href="https://github.com/lendradx"><img src="https://github-profile-trophy.vercel.app/?username=lendradx&theme=radical"></a>
-</p>
-
-
-<details>
-    <summary>&#127942 <b>GitHub Activity</b></summary><br/>
-
-![Metrics](https://metrics.lecoq.io/siegrin?template=classic&repositories.forks=true&languages=1&languages.colors=github&languages.threshold=0%25&config.timezone=Asia%2FMJakarta)
-
-</details> 
-
 ---------
 ## ```GROUP OFFICIAL```
 
