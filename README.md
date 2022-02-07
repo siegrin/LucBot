@@ -114,6 +114,11 @@
 * [`Trakteer`](https://trakteer.id/siegrin__/tip)
 
  ## ```Thanks to```
+* [`Allah SWT.`]
+* [`My parents`]
+* [`All Friends`]
+* [`All Contributors`]
+* [`All Creator Bot`]
 * [`Baileys`](https://github.com/adiwajshing/Baileys)
 * [`Lendev`](https://github.com/lendradx)
 * [`Dellas`](https://github.com/itsmedell)
