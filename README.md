@@ -10,7 +10,7 @@
 
 ## `SETTING FITUR BOT`
 
-- ENABLE/DISABLE [Here](https://github.com/siegrin/LucBot/blob/master/settingsbot.json#L1)
+- ENABLE/DISABLE [Here](https://github.com/siegrin/LucBot/blob/master/src/settingsbot.json#L1)
 
 
 ## `BUILDPACK HEROKU`
