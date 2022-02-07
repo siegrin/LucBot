@@ -2,6 +2,17 @@
 
 [`Click Here`](https://github.com/siegrin/LucBot/blob/master/session.json#L1)
 
+## `SETTING`
+
+- Owner number [Here](https://github.com/siegrin/LucBot/blob/master/settings.json#L1)
+- Owner name [Here](https://github.com/siegrin/LucBot/blob/master/settings.json#L1)
+- Botn Name [Here](https://github.com/siegrin/LucBot/blob/master/settings.json#L1)
+
+## `SETTING FITUR BOT`
+
+- ENABLE/DISABLE [Here](https://github.com/siegrin/LucBot/blob/master/settingsbot.json#L1)
+
+
 ## `BUILDPACK HEROKU`
 
 ```
