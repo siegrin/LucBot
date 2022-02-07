@@ -1,3 +1,7 @@
+## `CHANGE SESSION`
+
+[`Click Here`](https://github.com/siegrin/LucBot/blob/master/session.json#L1)
+
 ## `BUILDPACK HEROKU`
 
 ```
