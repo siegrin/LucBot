@@ -23,11 +23,6 @@
 # <img src="https://github.com/siegrin/siegrin/blob/main/Assets/powerup.gif" width="29px"> PUNTEN! <img src="https://github.com/siegrin/siegrin/blob/main/Assets/powerup.gif" width="29px">
 ---------
 <p align="center">
-  <img src="https://github.com/siegrin/siegrin/blob/main/Assets/doctor.fate.gif" />
-</p>
-
- ---------
-<p align="center">
 <img src="https://github.com/siegrin/siegrin/blob/main/Assets/Siegrin.jpg" width="200" height="200"/>
   </p>
   
