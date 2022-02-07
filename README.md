@@ -1,36 +1,3 @@
-## `CHANGE SESSION`
-
-[`Click Here`](https://github.com/siegrin/LucBot/blob/master/session.json#L1)
-
-## `SETTING`
-
-- Owner number [Here](https://github.com/siegrin/LucBot/blob/master/settings.json#L1)
-- Owner name [Here](https://github.com/siegrin/LucBot/blob/master/settings.json#L1)
-- Botn Name [Here](https://github.com/siegrin/LucBot/blob/master/settings.json#L1)
-
-## `SETTING FITUR BOT`
-
-- ENABLE/DISABLE [Here](https://github.com/siegrin/LucBot/blob/master/src/settingsbot.json#L1)
-
-
-## `BUILDPACK HEROKU`
-
-```
-> heroku/nodejs
-> https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
-> https://github.com/clhuang/heroku-buildpack-webp-binaries.git
-```
-
-## CARA INSTALL
-```bash
-> termux-setup-storage [Y]
-> cd /sdcard
-> cd -r LucBot /$HOME
-> cd LucBot
-> bash install.sh 
-> npm start
-> Now scan the QR
-```
 # <img src="https://github.com/siegrin/siegrin/blob/main/Assets/powerup.gif" width="29px"> PUNTEN! <img src="https://github.com/siegrin/siegrin/blob/main/Assets/powerup.gif" width="29px">
 ---------
 <p align="center">
@@ -80,6 +47,40 @@
     <img align="left" alt="SIEGRIN | Gmail" width="26px" src="https://github.com/siegrin/siegrin/blob/main/Assets/Gmail.svg" />
   </a> &nbsp;&nbsp;
 
+
+## `CHANGE SESSION`
+
+[`Click Here`](https://github.com/siegrin/LucBot/blob/master/session.json#L1)
+
+## `SETTING`
+
+- Owner number [Here](https://github.com/siegrin/LucBot/blob/master/settings.json#L1)
+- Owner name [Here](https://github.com/siegrin/LucBot/blob/master/settings.json#L1)
+- Botn Name [Here](https://github.com/siegrin/LucBot/blob/master/settings.json#L1)
+
+## `SETTING FITUR BOT`
+
+- ENABLE/DISABLE [Here](https://github.com/siegrin/LucBot/blob/master/src/settingsbot.json#L1)
+
+
+## `BUILDPACK HEROKU`
+
+```
+> heroku/nodejs
+> https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
+> https://github.com/clhuang/heroku-buildpack-webp-binaries.git
+```
+
+## CARA INSTALL
+```bash
+> termux-setup-storage [Y]
+> cd /sdcard
+> cd -r LucBot /$HOME
+> cd LucBot
+> bash install.sh 
+> npm start
+> Now scan the QR
+```
  ---------
 ## ```My Team```
 | [![Saya](https://github.com/lendradx.png?size=50)](https://github.com/lendradx) | [![Hm](https://github.com/itsmedell.png?size=50)](https://github.com/itsmedell) |
