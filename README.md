@@ -2,6 +2,7 @@
 now games-wabot already support MD, but of course there are still many **bugs** and there are still many that have not been **implemented**,
 
 use this [branch](https://github.com/BochilGaming/games-wabot/tree/multi-device) if you want to use MD!
+ <a href="https://github.com/Siegrin/siegrin#thanks-to">Thanks To</a> 
 
 ---------
 
