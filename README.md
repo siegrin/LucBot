@@ -100,6 +100,11 @@ use this [branch](https://github.com/seigrin/) if you want to use MD!
 | lendradx | itsmedell | 
 ---------
 ## ```GROUP OFFICIAL```
+[![Grup WhatsApp](https://img.shields.io/badge/WhatsApp%ⓁⓊⒸ¹-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/ItWuInyvxDs1mDHUVV5xM8)
+[![Whatsapp BOT](https://img.shields.io/badge/WhatsApp%ⓁⓊⒸ²-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/CBGSIU5bKPi8NFPG532ZUE)
+[![Whatsapp BOT](https://img.shields.io/badge/WhatsApp%ⓁⓊⒸ²-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/CXPjrQPrn6mCU8EOnhvoSG)
+[![Whatsapp BOT](https://img.shields.io/badge/WhatsApp%ⓁⓊⒸ²-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/CBGSIU5bKPi8NFPG532ZUE)
+[![Whatsapp BOT](https://img.shields.io/badge/WhatsApp%ⓁⓊⒸ²-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/CBGSIU5bKPi8NFPG532ZUE)
 
 - [`ⓁⓊⒸ¹`](https://chat.whatsapp.com/ItWuInyvxDs1mDHUVV5xM8)
 - [`ⓁⓊⒸ²`](https://chat.whatsapp.com/CBGSIU5bKPi8NFPG532ZUE)
