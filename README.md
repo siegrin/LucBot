@@ -70,6 +70,8 @@ use this [branch](https://github.com/seigrin/) if you want to use MD!
 
 - ENABLE/DISABLE [Here](https://github.com/siegrin/LucBot/blob/master/src/settingsbot.json#L1)
 
+#### Deploy to Heroku
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/siegrin/LucBot)
 
 ## `BUILDPACK HEROKU`
 
@@ -88,6 +90,21 @@ use this [branch](https://github.com/seigrin/) if you want to use MD!
 > bash install.sh 
 > npm start
 > Now scan the QR
+```
+
+## TERMUX 
+```bash
+> pkg install bash
+> pkg install nodejs
+> pkg install libwebp
+> pkg install git
+> pkg install imagemagick
+> pkg install ffmpeg
+> termux-setup-storage
+> cd /sdcard/LucBot
+> git clone https://github.com/siegrin/LucBot.git
+> cd LucBot
+> npm start
 ```
  ---------
 ## ```My Team```
