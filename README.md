@@ -1,3 +1,10 @@
+### want to use multi-device (md)?
+now games-wabot already support MD, but of course there are still many **bugs** and there are still many that have not been **implemented**,
+
+use this [branch](https://github.com/BochilGaming/games-wabot/tree/multi-device) if you want to use MD!
+
+---------
+
 # <img src="https://github.com/siegrin/siegrin/blob/main/Assets/powerup.gif" width="29px"> PUNTEN! <img src="https://github.com/siegrin/siegrin/blob/main/Assets/powerup.gif" width="29px">
 ---------
 <p align="center">
