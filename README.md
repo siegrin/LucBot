@@ -71,14 +71,13 @@ use this [branch](https://github.com/seigrin/) if you want to use MD!
 - ENABLE/DISABLE [Here](https://github.com/siegrin/LucBot/blob/master/src/settingsbot.json#L1)
 
 ## `BUILDPACK HEROKU`
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/siegrin/LucBot)
 
 ```
 > heroku/nodejs
 > https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
 > https://github.com/clhuang/heroku-buildpack-webp-binaries.git
 ```
-#### Deploy to Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/siegrin/LucBot)
 
 ## TERMUX USER
 ```bash
