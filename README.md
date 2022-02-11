@@ -1,5 +1,5 @@
 ### want to use multi-device (md)?
-SASARAI support MD, but of course there are still many **bugs** and there are still many that have not been **implemented**,
+SASARAI support MD, MASIH TEST OM **implemented**,
 
 use this [branch](https://github.com/seigrin/) if you want to use MD!
  <a href="https://github.com/Siegrin/siegrin#thanks-to">OTW</a> 
