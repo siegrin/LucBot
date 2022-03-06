@@ -83,7 +83,7 @@ const { yta,
  sholat,
  playstore,
 } = require('./lib/bot/ytdl')
-const { y2mateA, y2mateV } = require('./lib/y2mate')
+const { y2mateA, y2mateV } = require('./lib/bot/y2mate')
 const { antivirtexx } = require('./lib/bot/antivirtex.js')
 const { herodetails, herolist } = require('./lib/bot/herodetail.js')
 const { mediafireDl } = require('./lib/bot/mediafire.js')
