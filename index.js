@@ -4418,7 +4418,7 @@ captions = `*PLAY*\n\n*Title* : ${anu.title}\n\n_Silahkan pilih file media yang 
 			 let vud0woid = vud0woi2d.message["ephemeralMessage"] ? vud0woi2d.message.ephemeralMessage : vud0woi2d
 const buttonvido = [
   {buttonId: `ytmp3 ${anu.url}`, buttonText: {displayText: 'AUDIO'}, type: 1},
-  {buttonId: `video ${anu.url}`, buttonText: {displayText: 'VIDEO'}, type: 1},
+  {buttonId: `ytmp4 ${anu.url}`, buttonText: {displayText: 'VIDEO'}, type: 1},
 ]
 
 const buttonMessagegacvudeia = {
