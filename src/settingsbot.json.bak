@@ -1,0 +1,21 @@
+{
+"autocomposing": true,
+"autorecording": false,
+"bugc": false,
+"antitrol": false,
+"antical": false,
+"antitags": false,
+"readG": false,
+"readP": true,
+"regisinfo": false,
+"autoregis": false,
+"multi": true,
+"mainmenu": false,
+"banChats": false,
+"autorespon": false,
+"database": true,
+"premium": true,
+"infoerror": false,
+"autobackup": false
+}
+
