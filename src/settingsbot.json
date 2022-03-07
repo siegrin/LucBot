@@ -11,10 +11,10 @@
 "autoregis": false,
 "multi": true,
 "mainmenu": false,
-"banChats": true,
+"banChats": false,
 "autorespon": false,
-"database": true,
-"premium": true,
+"database": false,
+"premium": false,
 "infoerror": false,
 "autobackup": false
 }
