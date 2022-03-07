@@ -4543,45 +4543,6 @@ if (isBanned) return replysticker(banstc)
             reply('Pesan tidak ditemukan!')
             }           
             break
-			case 'adventure':
-			   case 'traveling':
-              
-if (database === true) {if (!isRegistered) return sendButtonNotRegis(from)}
-				if (isBanned) return reply(ind.baned())
-					if (!isOwner) return replysticker(ownerstc)
-				if ( checkHealuser(sender) <= 15) return reply(ind.healend())
-				if (database === true) {if ( checkLimituser(sender) <= 0) return reply(ind.limitend())}
-				setTimeout( () => {
-                    reply(`\`\`\`START ADVENTURE\`\`\``)
-                    }, 1000)
-                      addLevelingXp(sender, getexp)
-					  addKoinUser(sender, getmoney)
-					  addPotionUser(sender, count1)
-					  addMegaPotionUser(sender, count2)
-					  addDaun1User(sender, count7)
-					  addDaun2User(sender, count8)
-					  addPuzzleUser(sender, count13)
-					  addBibitUser(sender, count14)
-uhuhggf = `
-       *「 DEATH 」*
-┃➣ *ADVENTURE END*
-┃➣ *Traveler:@${player.split("@")[0]}*
-┃➣ *Money   :Rp.${getmoney}*
-┃➣ *Exp     :${getexp}Xp*
-┃➣ *GATHERING ITEM*
-┃➣ *💉:${count1}* ➣ *💊:${count2}* 
-┃➣ *🍂:${count7}* ➣ *🌿:${count8}*
-┃➣ *🧩:${count13}* ➣ *🌱:${count14}*
-╰━━━━━━━━━━━━━━━━━
-\`\`\`Note\`\`\`
-\`\`\`Item yang didapatkan bisa kamu liat ${prefix}ransel\nJangan lupa jual barang yang kalian temukan di ${prefix}shopmenu\`\`\`
-`
-					setTimeout( () => {
-sendButtonRPGLoc(from, uhuhggf, support, daftar3, { quoted: mek, contextInfo:{mentionedJid: [numbernye, ow, player]}})
-}, 10000)	
-					await confirmLIMIT(sender, 5)
-					await confirmHEAL(sender, 15)
-					break
 							
 case 'ytsearch':
 if (database === true) {if (!isRegistered) return sendButtonNotRegis(from)}
