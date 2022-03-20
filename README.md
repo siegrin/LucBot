@@ -36,7 +36,7 @@ You can change session in `'./session.json'`
 }
 ```
 ## Settings
-You can edit owner and other in `'./settings/config.json'`
+You can edit owner and other in `'./settings/settings.json'`
 
 ```ts
 {
@@ -46,10 +46,10 @@ You can edit owner and other in `'./settings/config.json'`
 ## For Heroku [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/siegrin/LucBot)
 ```
 Buildpack Heroku
-```
 * heroku/nodejs
 * https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git
 * https://github.com/DuckyTeam/heroku-buildpack-imagemagick.git
+```
 
 ## For Railways [![Deploy](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2siegrin%2FLucBot)
 
