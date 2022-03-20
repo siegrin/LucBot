@@ -65,4 +65,5 @@ Buildpack Heroku
 | MAGER|O|
 | Anti Troli|O|
 ## Full Info
-- [Bio]([https://chat.whatsapp.com/EU890BcXjyBDkNaUT5WmYV](https://instabio.cc/siegrin))
+- [Bio](https://instabio.cc/siegrin)
+  
