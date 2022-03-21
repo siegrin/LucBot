@@ -1,7 +1,7 @@
 {
   "name": "LUCBOT",
   "description": "WhatsApp Bot",
-  "repository": "https://github.com/siegrin/turu",
+  "repository": "https://github.com/siegrin/LucBot",
   "logo": "https://node-js-sample.herokuapp.com/node.png",
   "keywords": ["bot", "whatsapp", "whatsapp-bot"],
   "buildpacks": [
