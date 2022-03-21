@@ -67,3 +67,8 @@ Buildpack Heroku
 ## Full Info
 - [Bio](https://instabio.cc/siegrin)
   
+  ---------
+
+ [![siegrin](https://github.com/siegrin.png?size=100)](https://github.com/siegrin) | [![itsmedell](https://github.com/itsmedell.png?size=100)](https://github.com/itsmedell) | [![lendradxx](https://github.com/lendradxx.png?size=100)](https://github.com/lendradxx)
+----|----|----
+[siegrin](https://github.com/siegrin) | [itsmedell](https://github.com/itsmedell) | [lendradxx](https://github.com/lendradxx)
