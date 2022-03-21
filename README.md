@@ -68,6 +68,7 @@ Buildpack Heroku
 - [Bio](https://instabio.cc/siegrin)
   
 ## Team
- [![siegrin](https://github.com/siegrin.png?size=100)](https://github.com/siegrin) | [![itsmedell](https://github.com/itsmedell.png?size=100)](https://github.com/itsmedell) | [![lendradxx](https://github.com/lendradxx.png?size=100)](https://github.com/lendradxx)
+
+ [<img src="https://avatars.githubusercontent.com/siegrin" width="300" height="200"/>](https://github.com/siegrin) | [<img src="https://avatars.githubusercontent.com/itsmedell" width="300" height="200"/>](https://github.com/itsmedell) | [<img src="https://avatars.githubusercontent.com/lendradxx" width="300" height="200"/>](https://github.com/lendradxx)
 ----|----|----
 [siegrin](https://github.com/siegrin) | [itsmedell](https://github.com/itsmedell) | [lendradxx](https://github.com/lendradxx)
