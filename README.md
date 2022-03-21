@@ -69,6 +69,6 @@ Buildpack Heroku
   
 ## Team
 
- [<img src="https://avatars.githubusercontent.com/siegrin" width="300" height="200"/>](https://github.com/siegrin) | [<img src="https://avatars.githubusercontent.com/itsmedell" width="300" height="200"/>](https://github.com/itsmedell) | [<img src="https://avatars.githubusercontent.com/lendradxx" width="300" height="200"/>](https://github.com/lendradxx)
+ [<img src="https://avatars.githubusercontent.com/siegrin" width="100" height="100"/>](https://github.com/siegrin) | [<img src="https://avatars.githubusercontent.com/itsmedell" width="100" height="100"/>](https://github.com/itsmedell) | [<img src="https://avatars.githubusercontent.com/lendradxx" width="100" height="100"/>](https://github.com/lendradxx)
 ----|----|----
 [siegrin](https://github.com/siegrin) | [itsmedell](https://github.com/itsmedell) | [lendradxx](https://github.com/lendradxx)
