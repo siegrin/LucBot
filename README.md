@@ -49,7 +49,7 @@ Buildpack Heroku
 * heroku/nodejs
 * https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git
 * https://github.com/DuckyTeam/heroku-buildpack-imagemagick.git
-* https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
+* https://github.com/clhuang/heroku-buildpack-webp-binaries.git
 ```
 
 ## For Railways [![Deploy](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2siegrin%2FLucBot)
