@@ -2,13 +2,7 @@
 <img src="https://avatars.githubusercontent.com/siegrin" width="200" height="200"/>
 </p>
 <p align="center">
-    <a href="https://siegrin.github.io">
-        <img
-            src="https://readme-typing-svg.herokuapp.com?size=21&width=280&lines=Thank+for+using+Luc+Bot+"
-            alt="LucBot"
-        />
-    </a>
-</p>
+  <a href="https://siegrin.github.io"><img src="http://readme-typing-svg.herokuapp.com?color=7CFC00&center=true&vCenter=true&multiline=false&lines=Thank+for+using+Luc+Bot+" alt="Asu">
 </p>
 <p align="center">
 <a href="https://siegrin.github.io"><img title="Creator" src="https://img.shields.io/badge/Creator-Siegrin-purple.svg?style=for-the-badge&logo=github"></a>
@@ -23,6 +17,13 @@
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fsiegrin%2FHaruka&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2300FF6D&title=hits&edge_flat=false"/></a>
 <a href="https://github.com/siegrin/LucBot/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained-No-red.svg"></a>&nbsp;&nbsp;
 </p>
+
+## Team and Friends
+
+ [<img src="https://avatars.githubusercontent.com/siegrin" width="100" height="100"/>](https://github.com/siegrin) | [<img src="https://avatars.githubusercontent.com/itsmedell" width="100" height="100"/>](https://github.com/itsmedell) | [<img src="https://avatars.githubusercontent.com/lendradxx" width="100" height="100"/>](https://github.com/lendradxx)
+----|----|----
+[siegrin](https://github.com/siegrin) | [itsmedell](https://github.com/itsmedell) | [lendradxx](https://github.com/lendradxx)
+
 
 ## Change Session 
 You can change session in `'./session.json'`
@@ -122,8 +123,3 @@ npm i
 ## Full Info
 - [Bio](https://instabio.cc/siegrin)
   
-## Team
-
- [<img src="https://avatars.githubusercontent.com/siegrin" width="100" height="100"/>](https://github.com/siegrin) | [<img src="https://avatars.githubusercontent.com/itsmedell" width="100" height="100"/>](https://github.com/itsmedell) | [<img src="https://avatars.githubusercontent.com/lendradxx" width="100" height="100"/>](https://github.com/lendradxx)
-----|----|----
-[siegrin](https://github.com/siegrin) | [itsmedell](https://github.com/itsmedell) | [lendradxx](https://github.com/lendradxx)
