@@ -43,18 +43,72 @@ You can edit owner and other in `'./settings/settings.json'`
 	"prefix": ".",
 }
 ```
-## For Heroku [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/siegrin/LucBot)
-```
-Buildpack Heroku
-* heroku/nodejs
-* https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git
-* https://github.com/DuckyTeam/heroku-buildpack-imagemagick.git
-* https://github.com/clhuang/heroku-buildpack-webp-binaries.git
-```
 
-## For Railways [![Deploy](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2siegrin%2FLucBot)
+## How To Run
 
-## For Replit [![Run on Repl.it](https://repl.it/badge/github/FadliDarmawan/haruno)](https://repl.it/github.com/siegrin/LucBot)
+<details>
+  <summary>TERMUX/UBUNTU/SSH USER</summary>
+	
+  ```bash
+apt update && apt upgrade
+apt install git -y
+apt install nodejs -y
+apt install ffmpeg -y
+git clone https://github.com/siegrin/LucBot
+cd LucBot
+bash install.sh
+pkg install yarn
+yarn
+```
+</details>
+
+<details>
+  <summary>WINDOWS/RDP</summary>
+	
+* Unduh & Instal Git [`Klik Disini`](https://git-scm.com/downloads)
+* Unduh & Instal NodeJS [`Klik Disini`](https://nodejs.org/en/download)
+* Unduh & Instal FFmpeg [`Klik Disini`](https://ffmpeg.org/download.html) 
+
+```bash
+git clone https://github.com/siegrin/LucBot
+cd LucBot
+npm install
+```
+</details>
+
+<details>
+  <summary>HEROKU</summary>
+	
+* [`Click Me`](https://heroku.com/deploy?template=https://github.com/siegrin/LucBot)
+
+ ```bash
+heroku/nodejs
+https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git
+https://github.com/clhuang/heroku-buildpack-webp-binaries.git
+```
+</details>
+
+<details>
+  <summary>RAILWAYS</summary>
+	
+* [`Click Me`](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2siegrin%2FLucBot)
+ ```bash
+heroku/nodejs
+https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git
+https://github.com/clhuang/heroku-buildpack-webp-binaries.git
+```
+</details>
+
+<details>
+  <summary>REPLIT</summary>
+	
+* [`Click Me`](https://repl.it/github.com/siegrin/LucBot)
+```bash
+Klik button
+Buka console
+npm i
+```
+</details>
 
 ## Donate
 * [`Saweria`](https://saweria.co/siegrin)
