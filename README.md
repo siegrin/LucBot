@@ -29,9 +29,67 @@
 </details>
 
 <details>
-  <summary>ANOTHER SETTING</summary>
+  <summary>CHANGE SESSION</summary>
 	
 You can change session in `'./session.json'`
+```ts
+{
+	"clientID": "2g6XCJCIqrNImyXghv5w9A==",
+	"serverToken": "1@aET8WNaC1YvO5JDOsyqhvocOCXF2zQDBqgx0BHiHQcEo41JpdmiK3uSYCaTmJAWNoRy+og5m9XMw/Q==",
+	"clientToken": "5W99Yox/abUzp/TBYVKzg2lRdbuVTmInDigftnkw5yk=",
+	"encKey": "1zqSPJQk0HuJ6bURCLlVclzBACXHb7d4//7D4pgdXeo=",
+	"macKey": "xTlKJMHTBT74q+dgFNDzxdPixOxeHPOP/NpTktQVdw0="
+}
+```
+</details>
+
+<details>
+  <summary>SETTING</summary>
+	
+You can edit owner and other in `'./settings.json'`
+```ts
+{
+	"text": "Hii im Luc Bot Vol 15.",
+	"prefix": "#",
+	"bi": "➮",
+	"botNumber": "6289530298945", 
+	"NamaBot": "Luc Bot", 	
+	"namo": "LUC", 
+	"ator": "BOT",
+	"limit": "15",
+	"localuser": "+628",
+	"supportme": "instabio.cc/siegrin", 
+	"fakereply": "YT SIEGRIN", 
+	"ownername": "SIEGRIN", 
+	"owner": "6289530298948", 
+	"owner2": "6289530298948", 
+	"ownername2": "SIEGRIN", 
+	"owner3": "6289530298948", 
+	"ownername3": "SIEGRIN", 
+	"developer": "6289530298948",  
+	"donasi": "0895602592430", 
+	"rekening": "0895602592430", 
+	"mybio": "https://bit.ly/3qBItS1",
+	"trakteer": "bit.ly/3m5hgof", 
+	"mygmail": "piubitt@gmail.com", 
+	"saweria": "bit.ly/3oVRGnx", 
+	"myyoutube":"bit.ly/3s2UaT6", 
+	"mytiktok":"bit.ly/3m5xwpi", 
+	"mytwitter":"bit.ly/3yHNY4x", 
+	"github": "bit.ly/3scVRNU",
+	"linkgc1": "https://chat.whatsapp.com/DqVBY4CgZr05w2LE2PkPQQ", 
+	"linkgc2": "https://chat.whatsapp.com/K6nAs4lcpR3F4sW2OlMskE", 
+	"linkgc3": "https://chat.whatsapp.com/DIB5Mmvh5o2F55Hf6ixG6G", 
+	"linkgc4": "https://chat.whatsapp.com/KCpQojuFxx3EQ0z6uPcv77", 
+	"linkgc5": "https://chat.whatsapp.com/Bc4qb1rVIZY0JP8bpLOH1H"
+}
+```
+</details>
+
+<details>
+  <summary>ANOTHER SETTING</summary>
+	
+You can change session in `'./src/sessionbot.json'`
 ```ts
 {
 "autocomposing": false,
@@ -50,33 +108,6 @@ You can change session in `'./session.json'`
 }
 ```
 </details>
-
-<details>
-  <summary>SETTING</summary>
-	
-You can edit owner and other in `'./settings/settings.json'`
-```ts
-{
-	"prefix": ".",
-}
-```
-</details>
-
-<details>
-  <summary>CHANGE SESSION</summary>
-	
-You can change session in `'./session.json'`
-```ts
-{
-	"clientID": "2g6XCJCIqrNImyXghv5w9A==",
-	"serverToken": "1@aET8WNaC1YvO5JDOsyqhvocOCXF2zQDBqgx0BHiHQcEo41JpdmiK3uSYCaTmJAWNoRy+og5m9XMw/Q==",
-	"clientToken": "5W99Yox/abUzp/TBYVKzg2lRdbuVTmInDigftnkw5yk=",
-	"encKey": "1zqSPJQk0HuJ6bURCLlVclzBACXHb7d4//7D4pgdXeo=",
-	"macKey": "xTlKJMHTBT74q+dgFNDzxdPixOxeHPOP/NpTktQVdw0="
-}
-```
-</details>
-
 
 ## How To Run
 
