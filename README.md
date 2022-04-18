@@ -25,7 +25,46 @@
 [siegrin](https://github.com/siegrin) | [itsmedell](https://github.com/itsmedell) | [lendradxx](https://github.com/lendradxx)| [Biman(stepbrother)](https://github.com/siegrin)
 
 
-## Change Session 
+## Setting
+</details>
+
+<details>
+  <summary>ANOTHER SETTING</summary>
+	
+You can change session in `'./session.json'`
+```ts
+{
+"autocomposing": false,
+"autorecording": false,
+"bugc": false,
+"antitrol": false,
+"antical": false,
+"antitags": false,
+"readG": false,
+"readP": true,
+"multi": true,
+"mainmenu": false,
+"banChats": false,
+"autorespon": false,
+"infoerror": true
+}
+```
+</details>
+
+<details>
+  <summary>SETTING</summary>
+	
+You can edit owner and other in `'./settings/settings.json'`
+```ts
+{
+	"prefix": ".",
+}
+```
+</details>
+
+<details>
+  <summary>CHANGE SESSION</summary>
+	
 You can change session in `'./session.json'`
 ```ts
 {
@@ -36,14 +75,8 @@ You can change session in `'./session.json'`
 	"macKey": "xTlKJMHTBT74q+dgFNDzxdPixOxeHPOP/NpTktQVdw0="
 }
 ```
-## Settings
-You can edit owner and other in `'./settings/settings.json'`
+</details>
 
-```ts
-{
-	"prefix": ".",
-}
-```
 
 ## How To Run
 
